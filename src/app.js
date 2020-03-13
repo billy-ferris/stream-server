@@ -1,29 +1,15 @@
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
-const winston = require('winston');
 const cors = require('cors');
 const helmet = require('helmet');
+const logger = require('../logger');
 const { NODE_ENV } = require('./config');
+const pipelinesRouter = require('./pipelines/pipelines-router');
 
 const app = express();
 
 const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
-
-// set up winston
-const logger = winston.createLogger({
-  level: 'info',
-  format: winston.format.json(),
-  transports: [new winston.transports.File({ filename: 'info.log' })]
-});
-
-if (NODE_ENV !== 'production') {
-  logger.add(
-    new winston.transports.Console({
-      format: winston.format.simple()
-    })
-  );
-}
 
 app.use(function validateBearerToken(req, res, next) {
   const apiToken = process.env.API_TOKEN;
@@ -39,6 +25,8 @@ app.use(function validateBearerToken(req, res, next) {
 app.use(morgan(morganOption));
 app.use(helmet());
 app.use(cors());
+
+app.use('/api/pipelines', pipelinesRouter);
 
 app.get('/', (req, res) => {
   res.send('Hello, world!');

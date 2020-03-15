@@ -23,10 +23,10 @@ const leadsService = {
       .where({ id })
       .delete();
   },
-  updateLead(knex, id, updatedPipeline) {
+  updateLead(knex, id, updatedLead) {
     return knex('leads')
       .where({ id })
-      .update(updatedPipeline);
+      .update(updatedLead);
   }
 };
 

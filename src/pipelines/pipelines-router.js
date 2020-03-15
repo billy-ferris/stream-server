@@ -28,9 +28,9 @@ pipelinesRouter
 
     for (const [key, value] of Object.entries(newPipeline))
       if (value == null) {
-        logger.error(`Missing '${key}' in request body`);
+        logger.error(`Missing '${key}' in pipeline request body`);
         return res.status(400).json({
-          error: { message: `Missing '${key}' in request body` }
+          error: { message: `Missing '${key}' in pipeline request body` }
         });
       }
 
@@ -83,7 +83,7 @@ pipelinesRouter
     if (numberOfValues === 0) {
       return res.status(400).json({
         error: {
-          message: `Request body must contain either 'title' or 'team_id'`
+          message: `Pipeline request body must contain either 'title' or 'team_id'`
         }
       });
     }

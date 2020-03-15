@@ -6,6 +6,7 @@ const helmet = require('helmet');
 const logger = require('../logger');
 const { NODE_ENV } = require('./config');
 const pipelinesRouter = require('./pipelines/pipelines-router');
+const leadsRouter = require('./leads/leads-router');
 
 const app = express();
 
@@ -27,6 +28,7 @@ app.use(helmet());
 app.use(cors());
 
 app.use('/api/pipelines', pipelinesRouter);
+app.use('/api/leads', leadsRouter);
 
 app.get('/', (req, res) => {
   res.send('Hello, world!');

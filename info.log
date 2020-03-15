@@ -4,3 +4,81 @@
 {"message":"Unauthorized request to path: /","level":"error"}
 {"message":"Unauthorized request to path: /","level":"error"}
 {"message":"Pipeline with id 777 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Pipeline with id 11 created","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 3 created","level":"info"}
+{"message":"Pipeline with id 4 created","level":"info"}
+{"message":"Pipeline with id 5 created","level":"info"}
+{"message":"Pipeline with id 6 created","level":"info"}
+{"message":"Pipeline with id 7 created","level":"info"}
+{"message":"Pipeline with id 8 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 9 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 10 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 11 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 12 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 13 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 14 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 15 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 deleted","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Unauthorized request to path: /api/pipelines/2","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Pipeline with id 1 updated","level":"info"}
+{"message":"Pipeline with id 8 deleted","level":"info"}
+{"message":"Pipeline with id 9 deleted","level":"info"}
+{"message":"Pipeline with id 10 deleted","level":"info"}
+{"message":"Pipeline with id 11 deleted","level":"info"}
+{"message":"Pipeline with id 11 not found.","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 16 created","level":"info"}
+{"message":"Missing 'title' in request body","level":"error"}
+{"message":"Missing 'team_id' in request body","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 deleted","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}

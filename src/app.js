@@ -25,7 +25,11 @@ app.use(function validateBearerToken(req, res, next) {
 
 app.use(morgan(morganOption));
 app.use(helmet());
-app.use(cors());
+app.use(
+  cors({
+    origin: '*'
+  })
+);
 
 app.use('/api/pipelines', pipelinesRouter);
 app.use('/api/leads', leadsRouter);

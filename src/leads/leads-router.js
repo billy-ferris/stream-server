@@ -96,7 +96,7 @@ leadsRouter
       });
     }
 
-    leadToUpdate.last_updated = last_updated;
+    leadToUpdate.last_updated = new Date().toISOString();
 
     LeadsService.updateLead(
       req.app.get('db'),

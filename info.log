@@ -231,3 +231,4 @@
 {"message":"Pipeline with id 2 deleted","level":"info"}
 {"message":"Pipeline with id 12345 not found.","level":"error"}
 {"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Lead with id 7 updated","level":"info"}

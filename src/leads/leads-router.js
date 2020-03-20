@@ -86,14 +86,31 @@ leadsRouter
       .catch(next);
   })
   .patch(jsonParser, (req, res, next) => {
-    const { name, phone, email, city, state, last_updated } = req.body;
-    const leadToUpdate = { name, phone, email, city, state, last_updated };
+    const {
+      name,
+      phone,
+      email,
+      city,
+      state,
+      last_updated,
+      pipeline_id
+    } = req.body;
+
+    const leadToUpdate = {
+      name,
+      phone,
+      email,
+      city,
+      state,
+      last_updated,
+      pipeline_id
+    };
 
     const numberOfValues = Object.values(leadToUpdate).filter(Boolean).length;
     if (numberOfValues === 0) {
       return res.status(400).json({
         error: {
-          message: `Lead request body must contain either 'name', 'phone', 'email', 'city' or 'state'`
+          message: `Lead request body must contain either 'name', 'phone', 'email', 'city', 'state' or 'pipeline_id`
         }
       });
     }

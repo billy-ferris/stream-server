@@ -260,3 +260,4 @@
 {"message":"Missing 'pipeline_id' in lead request body","level":"error"}
 {"message":"Lead with id 22 created","level":"info"}
 {"message":"Lead with id 11 created","level":"info"}
+{"message":"Lead with id 2 updated","level":"info"}

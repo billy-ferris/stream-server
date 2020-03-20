@@ -31,8 +31,8 @@ leadsRouter
       .catch(next);
   })
   .post(jsonParser, (req, res, next) => {
-    const { name, phone, email, city, state } = req.body;
-    const newLead = { name, phone, email, city, state };
+    const { name, phone, email, city, state, pipeline_id } = req.body;
+    const newLead = { name, phone, email, city, state, pipeline_id };
 
     for (const [key, value] of Object.entries(newLead))
       if (value == null) {

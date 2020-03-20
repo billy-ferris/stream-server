@@ -139,6 +139,7 @@ describe('Leads Endpoints', function() {
     const testTeams = makeTeamsArray();
     const testUserRoles = makeUserRolesArray();
     const testUsers = makeUsersArray();
+    const testPipelines = makePipelinesArray();
 
     beforeEach('insert users', () => {
       return db
@@ -149,7 +150,12 @@ describe('Leads Endpoints', function() {
             .into('user_roles')
             .insert(testUserRoles)
             .then(() => {
-              return db.into('users').insert(testUsers);
+              return db
+                .into('users')
+                .insert(testUsers)
+                .then(() => {
+                  return db.into('pipelines').insert(testPipelines);
+                });
             });
         });
     });
@@ -160,7 +166,8 @@ describe('Leads Endpoints', function() {
         phone: '123-456-7890',
         email: 'jp@letterkenny.com',
         city: 'Albany',
-        state: 'New York'
+        state: 'New York',
+        pipeline_id: 1
       };
 
       return supertest(app)

@@ -232,3 +232,30 @@
 {"message":"Pipeline with id 12345 not found.","level":"error"}
 {"message":"Pipeline with id 2 updated","level":"info"}
 {"message":"Lead with id 7 updated","level":"info"}
+{"message":"Lead with id 12345 not found.","level":"error"}
+{"message":"Lead with id 19 created","level":"info"}
+{"message":"Missing 'name' in lead request body","level":"error"}
+{"message":"Missing 'phone' in lead request body","level":"error"}
+{"message":"Missing 'email' in lead request body","level":"error"}
+{"message":"Missing 'city' in lead request body","level":"error"}
+{"message":"Missing 'state' in lead request body","level":"error"}
+{"message":"Lead with id 12345 not found.","level":"error"}
+{"message":"Lead with id 2 deleted","level":"info"}
+{"message":"Lead with id 12345 not found.","level":"error"}
+{"message":"Lead with id 2 updated","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 20 created","level":"info"}
+{"message":"Missing 'title' in pipeline request body","level":"error"}
+{"message":"Missing 'team_id' in pipeline request body","level":"error"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 deleted","level":"info"}
+{"message":"Pipeline with id 12345 not found.","level":"error"}
+{"message":"Pipeline with id 2 updated","level":"info"}
+{"message":"Missing 'pipeline_id' in lead request body","level":"error"}
+{"message":"Missing 'name' in lead request body","level":"error"}
+{"message":"Missing 'phone' in lead request body","level":"error"}
+{"message":"Missing 'email' in lead request body","level":"error"}
+{"message":"Missing 'city' in lead request body","level":"error"}
+{"message":"Missing 'state' in lead request body","level":"error"}
+{"message":"Missing 'pipeline_id' in lead request body","level":"error"}
+{"message":"Lead with id 22 created","level":"info"}

@@ -42,6 +42,8 @@ leadsRouter
         });
       }
 
+    newLead.pipeline_id = pipeline_id;
+
     LeadsService.insertLead(req.app.get('db'), newLead)
       .then(lead => {
         logger.info(`Lead with id ${lead.id} created`);

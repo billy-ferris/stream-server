@@ -7,6 +7,8 @@ Stream helps companies and users to enter leads into a database and sort by all 
 Live App Link: https://stream-one.now.sh/
 Client Repository Link: https://github.com/baf62495/stream-client
 
+![Stream Pipeline Dashboard With Data](/screenshots/stream__pipeline-dashboard.png)
+
 # API Documentation
 
 GET /api/pipelines - Gets all pipelines
